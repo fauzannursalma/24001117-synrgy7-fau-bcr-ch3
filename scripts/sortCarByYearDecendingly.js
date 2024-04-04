@@ -8,8 +8,8 @@ function sortCarByYearDescendingly(cars) {
 
   // Tulis code-mu disini
   // [1] Sorting array secara descending menggunakan for loop (bubble sort)
-  for (let i = 0; i < result.length - 1; i++) {
-    for (let j = 0; j < result.length - 1 - i; j++) {
+  for (let i = 0; i < result.length; i++) {
+    for (let j = 0; j < result.length - i; j++) {
       // Melakukan pengecekan apakah tahun mobil sekarang lebih kecil dari tahun mobil setelahnya
       if (result[j].year < result[j + 1].year) {
         // Jika ya, maka lakukan pertukaran posisi
